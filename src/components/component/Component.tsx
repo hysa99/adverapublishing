@@ -1,6 +1,5 @@
 'use client'
 
-import { Modal } from '@/components/component/Header';
 import Link from "next/link";
 import * as React from 'react';
 import { JSX, SVGProps } from "react";
@@ -157,11 +156,11 @@ export function Component() {
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-10">
             <img
-              src="/placeholder.svg"
+              src="https://static.wixstatic.com/media/9af764_de61f8657172471193bc24f2860c22ec~mv2.jpg/v1/fill/w_560,h_374,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Template-10.jpg"
               width="550"
               height="310"
               alt="Web Development"
-              className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+              className="mx-auto aspect-video overflow-hidden rounded-full rounded-xl object-cover object-center sm:w-full"
             />
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Cutting-Edge Web Development</h2>
@@ -214,11 +213,7 @@ export function Component() {
             </div>
           </div>
         </section>
-
-        <section>
-        </section>
-
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+        {/* <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
           <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Our Clients</h2>
@@ -275,7 +270,7 @@ export function Component() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
     </div>
   )
